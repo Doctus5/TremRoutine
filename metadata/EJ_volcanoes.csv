@@ -1,0 +1,16 @@
+volcano,latitude,longitude,elevation,classification,eruption_style,status
+Arjuno-Welirang,-7.73,112.58,3339,stratovolcano,moderately explosive,dormant
+Baluran,-7.85,114.37,1247,stratovolcano,explosive,dormant
+Bromo,-7.94,112.95,2329,stratovolcano,explosive,eruption_warning
+Ijen,-8.06,114.24,2799,stratovolcano,explosive,dormant
+Iyan-Argapura,-7.97,113.57,3088,stratovolcano,explosive,dormant
+Kawi-Butak,-7.92,112.45,2651,stratovolcano,explosive,extinct
+Kelud,-7.93,112.31,1731,stratovolcano,explosive,dormant
+Lamongan,-7.98,113.34,1651,stratovolcano,effusive,dormant
+Lurus,-7.73,113.58,539,stratovolcano,explosive,extinct
+Malang-Plain,-8.02,112.68,680,maars,explosive,dormant
+Penanggungan,-7.62,112.63,1653,stratovolcano,explosive,dormant
+Raung,-8.13,114.04,3332,stratovolcano,explosive,eruption_warning
+Ringgit,-7.72,113.85,1250,stratovolcano,NA,extinct
+Selokaki,-7.83,112.35,1083,stratovolcano,NA,extinct
+Semeru,-8.11,112.92,3676,stratovolcano,explosive,erupting
