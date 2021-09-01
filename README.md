@@ -13,6 +13,8 @@ The code here was made for the master thesis named "Detection and Location of Tr
 
 ![Architecture](./code_architecture.png)
 
+The root direcotry or folder DO NOT make reference to the root folder of any UNIX-core type device. Therefore, "root directory" means a main folder of the user's preference on where to store the cloned repository (this one).
+
 Due to confidentiality of ERC-funded Lusi Lab project, the initial dataset cannot be shared (waveform files and response files) as well as the results. Therefore, the "data" and "results" folders shown in the architecture scheme of the program are not included. However, any used dataset must be organized in the specified hierarchycal order of the folders. 
 
 The content inside "results" will be automatically generated. Files generated for statistics under "stats" folder and the database of the events in the "events" folder will be as .JSON files. Each one in "events" will be a list of dictionnaries, where each dicitionary corresponds to one event: 
