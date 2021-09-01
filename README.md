@@ -34,9 +34,9 @@ The other Python files outside of the folders are made for managing functions th
   - _"make_prestats.py"_: code that generates additional information as the polarization analysis, P and Rayleigh wave classification, Maximum Amplitude, and others. Once runned, it will update the files inside the database of the events with the new calculations. It has the option for aprallelizing the process.
   - _"NNLarange.py"_: code for managing files during the Location inversion with NonLinLoc, such as copying or deleting files, updating the database with the locations, errors, etc. Location inversions will be done inside "NonLinLoc", under "programs" folder.
   - _"playground.py"_: not a relevat file for processing, but just a space for playing with the code, calling other functions such as plotting, printing statistics, exploring detection methods and benchmark tests.
-  - _"clone_superpc.sh"_: bash script for udating files to the Sigma2 HPC servers.
-  - _"loc_inv.sh"_: bash script for that once run, it automatically starts the location inversion for all the databsse by batches. This involves the creation of .obs files for NonLinLoc, the copy of those files into NonLinLoc respective folder, running the inversion, copying the output and writing it to updated files of the database, and cleaning of the NonLinLoc .obs files.
-  - _"routine.sh"_: bash script for running the entire routine, from start (detection and association) to end (location of events in database). Not recomended to run as it will be wise to run the codes separately so the user can supervise each process and have quality control in all of them.
+  - _"clone_superpc.sh"_: shell script for udating files to the Sigma2 HPC servers.
+  - _"loc_inv.sh"_: shell script for that once run, it automatically starts the location inversion for all the databsse by batches. This involves the creation of .obs files for NonLinLoc, the copy of those files into NonLinLoc respective folder, running the inversion, copying the output and writing it to updated files of the database, and cleaning of the NonLinLoc .obs files.
+  - _"routine.sh"_: shell script for running the entire routine, from start (detection and association) to end (location of events in database). Not recomended to run as it will be wise to run the codes separately so the user can supervise each process and have quality control in all of them.
 
 
 ## Installation
