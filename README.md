@@ -45,6 +45,28 @@ The other Python files outside of the folders are made for managing functions th
 
 ## Installation
 
+For the installation, the "seismo_env.yml" file is provided so it can be installed using an anaconda environment. Firstly, Anaconda3 must be installed in the local machine. Then the environment can be installed as:
+```
+conda env create -f environment.yml
+```
+In case of working in any of the available servers of Universitetet i Oslo (UiO) that has the Anaconda3 module installed, then the steps to do are this:
+```
+module load python/anaconda3 #for initializing Anaconda3 module
+conda env create -f environment.yml #install an environment named "seismo" with the specs of the .yml file, whcih contain all the available packages for running the codes in this repository
+```
+You can check if the environment named "seismo" is already installed by executing
+```
+conda env list
+```
+If the environment "seismo" is shown in the list, then it has been successfully installed and then it can be activated:
+```
+conda activate seismo
+```
+Once the "seismo" label appears as a prefix on the terminal line, then you are ready for running all the codes in this repository. To exit the environment, simply run:
+```
+conda deactivate seismo
+```
+
 ## References
 
   - Lomax, A. (2004). Probabilistic, non-linear, global-search earthquake location in 3d media.AnthonyLomax Scientific Software, Mouans–Sartoux, France.
